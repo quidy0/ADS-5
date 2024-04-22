@@ -121,3 +121,5 @@ int eval(std::string pref) {
             }
         }
     }
+    return stacks.pop();
+}
