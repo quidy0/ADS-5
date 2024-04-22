@@ -6,12 +6,10 @@
 
 template<typename T, int Size>
 class TStack {
-private:
-    T data[Size];
-    int t;
+private:T data[Size];
+        int t;
 
-public:
-    TStack() : t(0) {}
+public:TStack() : t(0) {}
 
     T pop() {
         if (t > 0)
